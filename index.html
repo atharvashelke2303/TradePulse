@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TradePulse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TradePulse</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trading
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Stock Price Forecast</a></li>
+                  <li><a class="dropdown-item" href="#">Algorithmic Trading</a></li>
+                  <li><a class="dropdown-item" href="#">Technical Analysis</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Investment
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Research</a></li>
+                  <li><a class="dropdown-item" href="#">Company Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Fundamental Analysis</a></li>
+                  <li><a class="dropdown-item" href="#">Returns Comparison</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academy
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Investment for beginners</a></li>
+                  <li><a class="dropdown-item" href="#">Trading for beginners</a></li>
+                  <li><a class="dropdown-item" href="#">Podcast</a></li>
+                  <li><a class="dropdown-item" href="#">Books</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Market
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Top Gainers</a></li>
+                  <li><a class="dropdown-item" href="#">Top Losers</a></li>
+                  <li><a class="dropdown-item" href="#">52 week high</a></li>
+                  <li><a class="dropdown-item" href="#">52 week low</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Personal Finance
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EMI Calculator</a></li>
+                    <li><a class="dropdown-item" href="#">SIP Calculator</a></li>
+                    <li><a class="dropdown-item" href="#">Inflation Calculator</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Segments
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="stocks.html">Stocks</a></li>
+                    <li><a class="dropdown-item" href="crypto.html">Cryptocurrency</a></li>
+                    <li><a class="dropdown-item" href="#">Commodities</a></li>
+                    <li><a class="dropdown-item" href="#">Forex</a></li>
+                  </ul>
+              
+              </li>
+              <a class="nav-link active" aria-current="page" href="#">Watchlist</a>
+              </li>
+            </li>
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            </ul>
+              <button class="btn btn-outline-success" type="submit">Open your account</button>
+              <button class="btn btn-outline-success" type="submit">Login</button>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/" rel="noopener nofollow" target="_blank">
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "description": "WALMART",
+        "proName": "NYSE:WMT"
+      },
+      {
+        "description": "AMAZON",
+        "proName": "NASDAQ:AMZN"
+      },
+      {
+        "description": "APPLE",
+        "proName": "NASDAQ:AAPL"
+      },
+      {
+        "description": "BERKSHIRE HATHWAY",
+        "proName": "NYSE:BRK.A"
+      },
+      {
+        "description": "GOOGLE",
+        "proName": "NASDAQ:GOOG"
+      },
+      {
+        "description": "MICROSOFT",
+        "proName": "NASDAQ:MSFT"
+      },
+      {
+        "description": "FORD",
+        "proName": "NYSE:F"
+      },
+      {
+        "description": "JP MORGAN",
+        "proName": "NYSE:JPM"
+      },
+      {
+        "description": "META",
+        "proName": "NASDAQ:META"
+      },
+      {
+        "description": "BANK OF AMERICA",
+        "proName": "NYSE:BAC"
+      },
+      {
+        "description": "DELL",
+        "proName": "NYSE:DELL"
+      },
+      {
+        "description": "FEDEX",
+        "proName": "NYSE:FDX"
+      },
+      {
+        "description": "PEPSI",
+        "proName": "NASDAQ:PEP"
+      },
+      {
+        "description": "TESLA",
+        "proName": "NASDAQ:TSLA"
+      },
+      {
+        "description": "GOLDMAN SACHS",
+        "proName": "NYSE:GS"
+      },
+      {
+        "description": "BOEING",
+        "proName": "NYSE:BA"
+      },
+      {
+        "description": "INTEL",
+        "proName": "NASDAQ:INTC"
+      },
+      {
+        "description": "MORGAN STANLEY",
+        "proName": "NYSE:MS"
+      },
+      {
+        "description": "HP",
+        "proName": "NYSE:HPQ"
+      },
+      {
+        "description": "IBM",
+        "proName": "NYSE:IBM"
+      },
+      {
+        "description": "CISCO",
+        "proName": "NASDAQ:CSCO"
+      },
+      {
+        "description": "NIKE",
+        "proName": "NYSE:NKE"
+      }
+    ],
+    "showSymbolLogo": true,
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "colorTheme": "light",
+    "locale": "in"
+  }
+    </script>
+  </a></div>
+  </div>
+  <!-- TradingView Widget END -->
+  <img src="./asset/coin2.jpg" width="100%" height="625px">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <p class="navbar-brand2">Market Snapshot</p>
+    </div>
+  </nav>
+  <!-- TradingView Widget BEGIN -->
+  <div class="marketsnap">
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "description": "MICROSOFT",
+      "proName": "NASDAQ:MSFT"
+    },
+    {
+      "description": "APPLE",
+      "proName": "NASDAQ:AAPL"
+    },
+    {
+      "description": "BITCOIN",
+      "proName": "CRYPTO:BTCUSD"
+    }
+  ],
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "locale": "en"
+}
+  </script></a></div>
+</div>
+<!-- TradingView Widget END -->
+<div class="markets">
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "light",
+  "dateRange": "12M",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "showFloatingTooltip": false,
+  "width": "400",
+  "height": "550",
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 0)",
+  "scaleFontColor": "rgba(106, 109, 120, 1)",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Indices",
+      "symbols": [
+        {
+          "s": "FOREXCOM:SPXUSD",
+          "d": "S&P 500"
+        },
+        {
+          "s": "FOREXCOM:NSXUSD",
+          "d": "US 100"
+        },
+        {
+          "s": "FOREXCOM:DJI",
+          "d": "Dow 30"
+        },
+        {
+          "s": "INDEX:NKY",
+          "d": "Nikkei 225"
+        },
+        {
+          "s": "INDEX:DEU40",
+          "d": "DAX Index"
+        }
+      ],
+      "originalTitle": "Indices"
+    },
+    {
+      "title": "Futures",
+      "symbols": [
+        {
+          "s": "CME_MINI:ES1!",
+          "d": "S&P 500"
+        },
+        {
+          "s": "CME:6E1!",
+          "d": "Euro"
+        },
+        {
+          "s": "COMEX:GC1!",
+          "d": "Gold"
+        },
+        {
+          "s": "NYMEX:CL1!",
+          "d": "WTI Crude Oil"
+        },
+        {
+          "s": "NYMEX:NG1!",
+          "d": "Gas"
+        }
+      ],
+      "originalTitle": "Futures"
+    },
+    {
+      "title": "Bonds",
+      "symbols": [
+        {
+          "s": "CBOT:ZB1!",
+          "d": "T-Bond"
+        },
+        {
+          "s": "CBOT:UB1!",
+          "d": "Ultra T-Bond"
+        },
+        {
+          "s": "EUREX:FGBL1!",
+          "d": "Euro Bund"
+        },
+        {
+          "s": "EUREX:FBTP1!",
+          "d": "Euro BTP"
+        },
+        {
+          "s": "EUREX:FGBM1!",
+          "d": "Euro BOBL"
+        }
+      ],
+      "originalTitle": "Bonds"
+    },
+    {
+      "title": "Forex",
+      "symbols": [
+        {
+          "s": "FX:EURUSD",
+          "d": "EUR to USD"
+        },
+        {
+          "s": "FX:GBPUSD",
+          "d": "GBP to USD"
+        },
+        {
+          "s": "FX:USDJPY",
+          "d": "USD to JPY"
+        },
+        {
+          "s": "FX:USDCHF",
+          "d": "USD to CHF"
+        },
+        {
+          "s": "FX:AUDUSD",
+          "d": "AUD to USD"
+        }
+      ],
+      "originalTitle": "Forex"
+    }
+  ]
+}
+  </script></a></div>
+</div>
+<!-- TradingView Widget END -->
+          
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+  {
+  "colorTheme": "light",
+  "dateRange": "12M",
+  "exchange": "NYSE",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "showFloatingTooltip": false,
+  "width": "400",
+  "height": "550",
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 0)",
+  "scaleFontColor": "rgba(106, 109, 120, 1)",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+}
+  </script></a></div>
+</div>
+<!-- TradingView Widget END -->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container-13">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "light",
+  "dateRange": "12M",
+  "showChart": true,
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "showFloatingTooltip": false,
+  "width": "400",
+  "height": "550",
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 0)",
+  "scaleFontColor": "rgba(106, 109, 120, 1)",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Cryptocurrency",
+      "symbols": [
+        {
+          "s": "BITSTAMP:BTCUSD",
+          "d": "BITCOIN"
+        },
+        {
+          "s": "BITSTAMP:ETHUSD",
+          "d": "ETHEREUM"
+        },
+        {
+          "s": "COINBASE:SOLUSD",
+          "d": "SOLANA"
+        },
+        {
+          "s": "BITSTAMP:MATICUSD",
+          "d": "POLYGON"
+        },
+        {
+          "s": "BITSTAMP:XRPUSD",
+          "d": "XRP"
+        }
+      ]
+    },
+    {
+      "title": "Commodity",
+      "symbols": [
+        {
+          "s": "CAPITALCOM:GOLD",
+          "d": "GOLD"
+        },
+        {
+          "s": "CAPITALCOM:SILVER",
+          "d": "SILVER"
+        },
+        {
+          "s": "TVC:USOIL",
+          "d": "CRUDE OIL"
+        },
+        {
+          "s": "CAPITALCOM:NATURALGAS",
+          "d": "NATURAL GAS"
+        },
+        {
+          "s": "PEPPERSTONE:ALUMINIUM",
+          "d": "ALUMINIUM"
+        }
+      ]
+    }
+  ]
+}
+  </script></a></div>
+</div></div>
+<!-- TradingView Widget END -->
+</div>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <p class="navbar-brand2">Stock Overview</p>
+  </div>
+</nav>
+<!-- TradingView Widget BEGIN -->
+<div class="stockover">
+<div class="tradingview-widget-container23">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+  {
+  "symbols": [
+    [
+      "NASDAQ:MSFT|12M"
+    ],
+    [
+      "NASDAQ:AAPL|12M"
+    ],
+    [
+      "NASDAQ:GOOGL|12M"
+    ],
+    [
+      "NASDAQ:META|12M"
+    ],
+    [
+      "NASDAQ:AMZN|12M"
+    ],
+    [
+      "NASDAQ:TSLA|12M"
+    ],
+    [
+      "NASDAQ:NFLX|12M"
+    ],
+    [
+      "NASDAQ:NVDA|12M"
+    ]
+  ],
+  "chartOnly": false,
+  "width": "1000",
+  "height": "500",
+  "locale": "en",
+  "colorTheme": "light",
+  "autosize": false,
+  "showVolume": false,
+  "showMA": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "fontSize": "10",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "chartType": "area",
+  "lineWidth": 2,
+  "lineType": 0,
+  "dateRanges": [
+    "1d|1",
+    "1m|30",
+    "3m|60",
+    "12m|1D",
+    "60m|1W",
+    "all|1M"
+  ],
+  "upColor": "#22ab94",
+  "downColor": "#f7525f",
+  "borderUpColor": "#22ab94",
+  "borderDownColor": "#f7525f",
+  "wickUpColor": "#22ab94",
+  "wickDownColor": "#f7525f"
+}
+  </script></a></div>
+</div></div>
+<!-- TradingView Widget END -->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <p class="navbar-brand2"></p>
+  </div>
+</nav>
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+  {
+  "feedMode": "all_symbols",
+  "isTransparent": false,
+  "displayMode": "compact",
+  "width": "1550",
+  "height": "400",
+  "colorTheme": "light",
+  "locale": "en"
+}
+  </script></a></div>
+</div>
+<!-- TradingView Widget END -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>Welcome to TradePulse - Your Premier Destination for Financial Insights and Market Expertise!</p>
+
+          <p>At TradePulse, we believe that informed decisions lead to successful investments. Our platform is dedicated to providing you with comprehensive financial insights, cutting-edge market analysis, and expert advice to empower your journey in the dynamic world of stock markets.</p>
+        </div>
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <p>Email: info@tradepulse.com</p>
+          <p>Phone: +1 123-456-7890</p>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

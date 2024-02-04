@@ -1,0 +1,100 @@
+.btn-outline-success {
+    margin: 2px;
+}
+.nav-link {
+    margin-right: 10px; 
+}
+.charting{
+    text-align: center;
+}
+.tradingview-widget-container2{
+    display: flex;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    background-color: #ffff; /* Match the background color of your navbar */
+    color: black;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .footer h2 {
+    color: black;
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .footer a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+.markets{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.navbar-brand2{
+  margin-left: 700px;
+  font-size: large;
+}
+.tradingview-widget-container23{
+  margin-left: 240px;
+}
+/*.marketsnap{
+  background-image: url(./asset/wallpaper1.jpg);
+}
+.stockover{
+  background-image: url(./asset/wallpaper1.jpg);
+}*/
+.navbar-brand3{
+  margin-left: 600px;
+  font-size: large;
+}
+.tradingview-widget-container99{
+  margin-left: 150px;
+}
+.tradingview-widget-container98{
+  margin-left: 230px;
+}
+.navbar-brand4{
+  margin-left: 550px;
+  font-size: large;
+}
+.stockov{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
