@@ -1,6 +1,7 @@
 import streamlit as st
 from datetime import date
-
+import subprocess
+subprocess.run(["pip", "install", "yfinance==0.2.31"])
 import yfinance as yf
 from prophet import Prophet
 from prophet.plot import plot_plotly
